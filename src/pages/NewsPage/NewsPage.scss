@@ -1,0 +1,13 @@
+.newsPage {
+  &__postsList {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .MuiButtonBase-root {
+    font-family: 'News Cycle', sans-serif;
+    color: rgba(0, 0, 0, 0.45);
+    background-color: white;
+  }
+}

@@ -1,0 +1,40 @@
+.dialog {
+  &__close {
+    cursor: pointer;
+
+    &:hover {
+      & svg path {
+        fill: dodgerblue;
+      }
+    }
+
+    & svg {
+      width: 15px;
+      height: 15px;
+
+      & path {
+        transition: .3s linear;
+      }
+    }
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.MuiTypography-root {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.MuiTypography-body1.MuiDialogContentText-root {
+  margin-bottom: 30px;
+}
+
+.MuiDialogActions-root.MuiDialogActions-spacing {
+  padding: 30px;
+}
