@@ -103,7 +103,7 @@ const Header = () => {
                 onClose={() => setAnchorElUser(null)}
               >
 
-                <MenuItem>
+                <MenuItem onClick={() => setAnchorElUser(null)}>
                   <NavLink to='/profile'>
                     <Typography textAlign="center">{t('Menu.profile')}</Typography>
                   </NavLink>
